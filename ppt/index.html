@@ -1230,40 +1230,45 @@
 
 <!-- 01 · S01 Cover · IKB 满屏 -->
 <section class="slide accent" data-animate="hero" data-layout="SWISS-COVER-ASCII">
-  <div class="canvas-card">
-    <canvas class="ascii-bg" aria-hidden="true"></canvas>
-    <div class="chrome-min">
-      <div class="l">软件开发梦想秀 · Field Note 01</div>
-      <div class="r">SS · 26.06.12 · 01 / 08</div>
+  <div class="canvas-card" style="position:relative;overflow:hidden">
+    <img src="images/01-cover-keynote.png" data-image-slot="cover-bg-16x9" alt="发布会舞台" loading="eager" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center">
+    <div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,8,40,.46) 0%,rgba(0,10,46,.22) 42%,rgba(0,6,32,.78) 100%)"></div>
+    <div class="chrome-min" style="position:relative;z-index:1">
+      <div class="l">ZHIXING CAMPUS · LAUNCH EVENT</div>
+      <div class="r">SS · 26.06.12 · 01 / 11</div>
     </div>
-    <div style="flex:1;padding:0;display:grid;grid-template-rows:auto 1fr auto;gap:2.6vh">
-      <div data-anim="kicker" class="t-meta" style="color:rgba(255,255,255,.78);letter-spacing:.22em">SOFTWARE DREAM SHOW · ZHIXING CAMPUS</div>
-      <h1 data-anim="title" style="align-self:center;font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(11.6vw,19vh);line-height:.94;letter-spacing:-.025em;color:#fff">软件开发<br/>梦想<span style="font-style:italic;font-weight:300">秀</span></h1>
-      <div data-anim="bottom" style="display:grid;grid-template-rows:auto auto;gap:1.6vh;border-top:1px solid rgba(255,255,255,.22);padding-top:2vh">
-        <div data-anim="lead" class="lead" style="max-width:52ch;color:rgba(255,255,255,.86)">智星校园 — AI 智能校园生活助手。理想是方向，迭代是路径，一个人也能把梦想交付上线。</div>
+    <div style="flex:1;padding:0;display:grid;grid-template-rows:auto 1fr auto;gap:2.6vh;position:relative;z-index:1">
+      <div data-anim="kicker" class="t-meta" style="color:rgba(255,255,255,.82);letter-spacing:.22em">AI CAMPUS LIFE ASSISTANT · 2026 发布</div>
+      <h1 data-anim="title" style="align-self:center;font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(11.6vw,19vh);line-height:.94;letter-spacing:-.025em;color:#fff;text-shadow:0 2px 36px rgba(0,12,60,.55)">智星<span style="font-style:italic;font-weight:300">校园</span></h1>
+      <div data-anim="bottom" style="display:grid;grid-template-rows:auto auto;gap:1.6vh;border-top:1px solid rgba(255,255,255,.3);padding-top:2vh">
+        <div data-anim="lead" class="lead" style="max-width:52ch;color:rgba(255,255,255,.92)">AI 智能校园生活助手 — 课表 · 失物 · 二手，一个人，一套理想开发流程，交付上线。</div>
         <div style="display:flex;justify-content:space-between;align-items:end">
-          <div class="t-meta" style="color:rgba(255,255,255,.6)">演讲人 · 欧阳晨旭 · 2026.06</div>
-          <div class="t-meta" style="color:rgba(255,255,255,.6)">→ swipe / arrow keys</div>
+          <div class="t-meta" style="color:rgba(255,255,255,.72)">演讲人 · 欧阳晨旭 · 2026.06</div>
+          <div class="t-meta" style="color:rgba(255,255,255,.72)">→ swipe / arrow keys</div>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- 02 · S09 Dot Matrix Statement -->
-<section class="slide light" data-animate="grid-reveal" data-layout="S09">
-  <div class="canvas-card" style="position:relative;overflow:hidden">
+<!-- 02 · S04 实验总览 -->
+<section class="slide light" data-animate="grid-reveal" data-layout="S04">
+  <div class="canvas-card">
     <div class="chrome-min">
-      <div class="l">Statement · 主题宣言</div>
-      <div class="r">02 / 08</div>
+      <div class="l">Overview · 两个实验</div>
+      <div class="r">02 / 11</div>
     </div>
-    <span class="ring-mat" style="position:absolute;left:5vw;bottom:6vh;width:16vw;height:16vw"></span>
-    <span class="dot-mat" style="position:absolute;right:0;top:0;width:32vw;height:32vw"></span>
-    <div style="flex:1;padding:0;display:grid;align-items:center">
-      <div data-anim="stmt" style="display:flex;flex-direction:column;gap:3vh">
-        <h1 style="font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(5.8vw,10.2vh);line-height:1.12;letter-spacing:-.035em;color:var(--text-primary)">把课表、失物与二手，<br/>都交给一个 <span style="color:var(--accent);font-weight:300">AI</span>。</h1>
-        <span class="t-meta" style="color:var(--text-helper)">— Statement 01 · 智星校园的全部野心</span>
-      </div>
+    <div data-anim="head" style="display:flex;flex-direction:column;gap:1.4vh">
+      <div class="t-meta">LAB 01 + LAB 02 · 目的 / 内容 / 交付</div>
+      <h2 style="font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(5.8vw,10.2vh);line-height:.96;letter-spacing:-.035em">实验总览</h2>
+    </div>
+    <div class="sub-grid-3-2" data-anim="cells">
+      <div class="sub-card"><i data-lucide="target" class="lucide"></i><span class="nb-corner">1-目的</span><h4 class="ttl">开拓思路 · 训练演讲</h4><p class="desc">实验1：提高创造性，训练表达，把理想的开发过程讲出来。</p></div>
+      <div class="sub-card"><i data-lucide="palette" class="lucide"></i><span class="nb-corner">1-内容</span><h4 class="ttl">60 分钟梦想蓝图</h4><p class="desc">讨论理想状态下的软件开发过程，绘出 12 幅梦想蓝图（要求 5~15 幅）。</p></div>
+      <div class="sub-card accent"><i data-lucide="file-text" class="lucide"></i><span class="nb-corner">1-交付</span><h4 class="ttl">报告 · 经验与差距</h4><p class="desc">总结经验教训，谈如何缩小软件开发现实和理想的差距。</p></div>
+      <div class="sub-card"><i data-lucide="book-open" class="lucide"></i><span class="nb-corner">2-目的</span><h4 class="ttl">掌握用户故事</h4><p class="desc">实验2：掌握编写用户故事的方法，加深理解 INVEST 规则。</p></div>
+      <div class="sub-card"><i data-lucide="layers" class="lucide"></i><span class="nb-corner">2-内容</span><h4 class="ttl">2-3 个需求拆故事</h4><p class="desc">基于智星校园项目选定需求，按模板与 INVEST 拆分编写用户故事。</p></div>
+      <div class="sub-card accent"><i data-lucide="clipboard-check" class="lucide"></i><span class="nb-corner">2-交付</span><h4 class="ttl">故事清单 + 验收用例</h4><p class="desc">用户故事清单（含验收测试用例）与实验报告，一并入仓。</p></div>
     </div>
   </div>
 </section>
@@ -1272,12 +1277,12 @@
 <section class="slide dark" data-animate="grid-reveal" data-layout="S04">
   <div class="canvas-card">
     <div class="chrome-min">
-      <div class="l">Blueprints · 梦想蓝图</div>
-      <div class="r">03 / 08</div>
+      <div class="l">Blueprints · 梦想蓝图 上</div>
+      <div class="r">03 / 11</div>
     </div>
     <div data-anim="head" style="display:flex;flex-direction:column;gap:1.4vh">
       <div class="t-meta">DREAM BLUEPRINTS · 01-06</div>
-      <h2 style="font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(6.4vw,11.2vh);line-height:.96;letter-spacing:-.035em">六大梦想蓝图</h2>
+      <h2 style="font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(6.4vw,11.2vh);line-height:.96;letter-spacing:-.035em">梦想蓝图 · 上篇</h2>
     </div>
     <div class="sub-grid-3-2" data-anim="cells">
       <div class="sub-card"><i data-lucide="message-square" class="lucide"></i><span class="nb-corner">01</span><h4 class="ttl">需求即对话</h4><p class="desc">和 AI 聊一段需求，用户故事自动成形，模糊变清晰。</p></div>
@@ -1290,12 +1295,34 @@
   </div>
 </section>
 
-<!-- 04 · S11 Horizontal Timeline -->
+<!-- 05 · S04 蓝图 07-12 -->
+<section class="slide dark" data-animate="grid-reveal" data-layout="S04">
+  <div class="canvas-card">
+    <div class="chrome-min">
+      <div class="l">Blueprints · 梦想蓝图 下</div>
+      <div class="r">04 / 11</div>
+    </div>
+    <div data-anim="head" style="display:flex;flex-direction:column;gap:1.4vh">
+      <div class="t-meta">DREAM BLUEPRINTS · 07-12</div>
+      <h2 style="font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(6.4vw,11.2vh);line-height:.96;letter-spacing:-.035em">梦想蓝图 · 下篇</h2>
+    </div>
+    <div class="sub-grid-3-2" data-anim="cells">
+      <div class="sub-card"><i data-lucide="file-code" class="lucide"></i><span class="nb-corner">07</span><h4 class="ttl">文档自动生长</h4><p class="desc">代码即文档，接口说明与变更记录随提交自动更新。</p></div>
+      <div class="sub-card"><i data-lucide="search-check" class="lucide"></i><span class="nb-corner">08</span><h4 class="ttl">缺陷提前预警</h4><p class="desc">静态分析与 AI review 在合并前拦截 80% 的低级错误。</p></div>
+      <div class="sub-card"><i data-lucide="gauge" class="lucide"></i><span class="nb-corner">09</span><h4 class="ttl">性能持续可见</h4><p class="desc">每次发布自动跑性能基线，劣化第一时间被发现。</p></div>
+      <div class="sub-card"><i data-lucide="users" class="lucide"></i><span class="nb-corner">10</span><h4 class="ttl">用户共创需求</h4><p class="desc">同学在应用内一键提需求，热度投票决定下一个迭代。</p></div>
+      <div class="sub-card"><i data-lucide="recycle" class="lucide"></i><span class="nb-corner">11</span><h4 class="ttl">技术债定期清偿</h4><p class="desc">每个迭代预留 20% 时间还债，系统始终保持轻盈。</p></div>
+      <div class="sub-card accent"><i data-lucide="sparkles" class="lucide"></i><span class="nb-corner">12</span><h4 class="ttl">上线即庆祝</h4><p class="desc">每次发布自动生成发布纪念页，让交付成为仪式感。</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 06 · S11 Horizontal Timeline -->
 <section class="slide light" data-animate="timeline-walk" data-layout="S11">
   <div class="canvas-card">
     <div class="chrome-min">
       <div class="l">Pipeline · 开发流水线</div>
-      <div class="r">04 / 08</div>
+      <div class="r">05 / 11</div>
     </div>
     <div data-anim="head" style="display:flex;flex-direction:column;gap:1.4vh">
       <div class="t-meta">ONE-PERSON TEAM · FIVE STEPS</div>
@@ -1318,7 +1345,7 @@
   <div class="canvas-card">
     <div class="chrome-min">
       <div class="l">Compare · 现实与理想</div>
-      <div class="r">05 / 08</div>
+      <div class="r">06 / 11</div>
     </div>
     <div class="duo-compare" style="flex:1;display:grid;grid-template-columns:1fr 1px 1fr;gap:3vw;align-items:start;padding-top:3vh">
       <div class="duo-half" style="display:flex;flex-direction:column;gap:2.4vh">
@@ -1344,7 +1371,7 @@
            style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 35%">
       <div class="chrome-min" style="position:absolute;top:0;left:0;right:0;color:rgba(10,10,10,.7);padding:5.6vh 5vw 0;margin-bottom:0">
         <div class="l">Vision · 产品愿景</div>
-        <div class="r">06 / 08</div>
+        <div class="r">07 / 11</div>
       </div>
       <div data-anim="title-block" style="position:absolute;left:5vw;top:11vh;background:var(--paper);padding:3.2vh 3.2vw;max-width:40vw">
         <div style="font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(5.2vw,9vh);line-height:1.05;letter-spacing:-.035em;color:var(--text-primary)">智星校园<br/><span style="color:var(--accent)">Campus OS</span></div>
@@ -1361,33 +1388,84 @@
   </div>
 </section>
 
-<!-- 07 · S16 Multi-card Brief · 图片格改造 -->
-<section class="slide light" data-animate="grid-reveal" data-layout="S16">
+<!-- 08 · S04 用户故事模板与 INVEST -->
+<section class="slide light" data-animate="grid-reveal" data-layout="S04">
   <div class="canvas-card">
     <div class="chrome-min">
-      <div class="l">Scenarios · 三个核心场景</div>
-      <div class="r">07 / 08</div>
+      <div class="l">Method · 用户故事</div>
+      <div class="r">08 / 11</div>
     </div>
     <div data-anim="head" style="display:flex;flex-direction:column;gap:1.4vh">
-      <div class="t-meta">THREE SCENES · ONE SYSTEM</div>
-      <h2 style="font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(5.8vw,10.2vh);line-height:.96;letter-spacing:-.035em">三个核心场景的视觉蓝图</h2>
+      <div class="t-meta">TEMPLATE · As a &lt;User&gt; I want &lt;Goal&gt; So that &lt;Value&gt; · INVEST</div>
+      <h2 style="font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(5.8vw,10.2vh);line-height:.96;letter-spacing:-.035em">用户故事与 INVEST 六规则</h2>
     </div>
-    <div class="grid-3" data-anim="up" style="display:grid;grid-template-columns:repeat(3,1fr);gap:2vw;align-items:center;align-content:center;flex:1;margin-top:0">
-      <figure class="tile"><div class="frame-img r-16x10"><img src="images/07-market.png" data-image-slot="s16-grid-16x10" alt="二手交易"></div><figcaption class="swiss-img-caption"><strong>01</strong><span>二手交易 · 让闲置在校园里流动</span></figcaption></figure>
-      <figure class="tile"><div class="frame-img r-16x10"><img src="images/07-lostfound.png" data-image-slot="s16-grid-16x10" alt="失物招领"></div><figcaption class="swiss-img-caption"><strong>02</strong><span>失物招领 · 用 AI 匹配失与得</span></figcaption></figure>
-      <figure class="tile"><div class="frame-img r-16x10"><img src="images/07-schedule.png" data-image-slot="s16-grid-16x10" alt="AI 智能课程表"></div><figcaption class="swiss-img-caption"><strong>03</strong><span>AI 课程表 · 把时间还给同学</span></figcaption></figure>
+    <div class="sub-grid-3-2" data-anim="cells">
+      <div class="sub-card"><i data-lucide="unlink" class="lucide"></i><span class="nb-corner">I</span><h4 class="ttl">Independent 独立性</h4><p class="desc">避免与其他用户故事的依赖，每个故事可单独交付。</p></div>
+      <div class="sub-card"><i data-lucide="handshake" class="lucide"></i><span class="nb-corner">N</span><h4 class="ttl">Negotiable 可谈判</h4><p class="desc">不是商业合同，由客户 / PO 与开发小组共同协商制定。</p></div>
+      <div class="sub-card"><i data-lucide="gem" class="lucide"></i><span class="nb-corner">V</span><h4 class="ttl">Valuable 有价值</h4><p class="desc">每个故事都需要体现出对用户的价值。</p></div>
+      <div class="sub-card"><i data-lucide="calculator" class="lucide"></i><span class="nb-corner">E</span><h4 class="ttl">Estimable 可估计</h4><p class="desc">可拆分任务并估算开发时间，不留黑盒。</p></div>
+      <div class="sub-card"><i data-lucide="scissors" class="lucide"></i><span class="nb-corner">S</span><h4 class="ttl">Sized Right 合理尺寸</h4><p class="desc">尽量小，不超过 1 个 sprint；遇到 And / Or 就拆成两个故事。</p></div>
+      <div class="sub-card accent"><i data-lucide="flask-conical" class="lucide"></i><span class="nb-corner">T</span><h4 class="ttl">Testable 可测试</h4><p class="desc">定义验收测试通过标准后，故事才算编写完毕。</p></div>
     </div>
   </div>
 </section>
 
-<!-- 08 · S10 Closing · 左 IKB / 右 takeaway -->
+<!-- 09 · S16 Multi-card Brief · 图片格改造 -->
+<section class="slide light" data-animate="grid-reveal" data-layout="S16">
+  <div class="canvas-card">
+    <div class="chrome-min">
+      <div class="l">Stories · 用户故事方法</div>
+      <div class="r">09 / 11</div>
+    </div>
+    <div data-anim="head" style="display:flex;flex-direction:column;gap:1.4vh">
+      <div class="t-meta">THREE NEEDS · TEN USER STORIES · ALL WITH ACCEPTANCE TESTS</div>
+      <h2 style="font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(5.8vw,10.2vh);line-height:.96;letter-spacing:-.035em">三个需求 · 十个用户故事</h2>
+    </div>
+    <div class="grid-3" data-anim="up" style="display:grid;grid-template-columns:repeat(3,1fr);gap:2vw;align-items:center;align-content:center;flex:1;margin-top:0">
+      <figure class="tile"><div class="frame-img r-16x10"><img src="images/07-market.png" data-image-slot="s16-grid-16x10" alt="二手交易"></div><figcaption class="swiss-img-caption"><strong>01</strong><span>二手交易 · 发布 / 搜索 / 留言 / 下架 · 4 个故事</span></figcaption></figure>
+      <figure class="tile"><div class="frame-img r-16x10"><img src="images/07-lostfound.png" data-image-slot="s16-grid-16x10" alt="失物招领"></div><figcaption class="swiss-img-caption"><strong>02</strong><span>失物招领 · 登记 / AI 匹配 / 认领 · 3 个故事</span></figcaption></figure>
+      <figure class="tile"><div class="frame-img r-16x10"><img src="images/07-schedule.png" data-image-slot="s16-grid-16x10" alt="AI 智能课程表"></div><figcaption class="swiss-img-caption"><strong>03</strong><span>AI 课程表 · 导入 / 提醒 / 问答 · 3 个故事</span></figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- 10 · S08 用户故事示例 + 验收测试用例 -->
+<section class="slide dark" data-animate="duo-mirror" data-layout="S08">
+  <div class="canvas-card">
+    <div class="chrome-min">
+      <div class="l">Example · 故事与验收</div>
+      <div class="r">10 / 11</div>
+    </div>
+    <div class="duo-compare" style="flex:1;display:grid;grid-template-columns:1fr 1px 1fr;gap:3vw;align-items:start;padding-top:3vh">
+      <div class="duo-half" style="display:flex;flex-direction:column;gap:2.4vh">
+        <span class="t-cat" style="color:var(--text-helper)">User Story · 示例</span>
+        <h2 style="font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(4.6vw,8.2vh);line-height:1.05;letter-spacing:-.03em">一张故事卡片</h2>
+        <p style="font-family:var(--sans),var(--sans-zh);font-size:max(16px,1vw);line-height:1.7;font-weight:400;color:rgba(255,255,255,.78);max-width:36ch"><strong style="font-weight:600">作为</strong>“智星校园”的在校学生，<strong style="font-weight:600">我想</strong>把闲置物品发布到二手市场，<strong style="font-weight:600">原因是</strong>我可以让闲置变现、让物品被需要的同学复用。</p>
+        <p style="font-family:var(--sans),var(--sans-zh);font-size:max(14px,.9vw);line-height:1.7;font-weight:400;color:rgba(255,255,255,.6);max-width:36ch">简写：学生可以发布闲置物品。不含 And / Or，不含技术细节，颛粒度 ≤ 1 个 sprint。</p>
+      </div>
+      <span class="vrule"></span>
+      <div class="duo-half" style="display:flex;flex-direction:column;gap:2.4vh">
+        <span class="t-cat" style="color:var(--accent-bright)">Acceptance Tests · 验收测试用例</span>
+        <h2 style="font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(4.6vw,8.2vh);line-height:1.05;letter-spacing:-.03em">四条验收标准</h2>
+        <div style="display:flex;flex-direction:column;gap:1.6vh;font-family:var(--sans),var(--sans-zh);font-size:max(15px,.95vw);line-height:1.6;color:rgba(255,255,255,.82)">
+          <div style="display:grid;grid-template-columns:auto 1fr;gap:1vw;border-top:1px solid rgba(255,255,255,.18);padding-top:1.2vh"><span style="font-family:var(--mono);color:var(--accent-bright)">AT-1</span><span>学生可以发布单个物品，含图片、价格与描述。</span></div>
+          <div style="display:grid;grid-template-columns:auto 1fr;gap:1vw;border-top:1px solid rgba(255,255,255,.18);padding-top:1.2vh"><span style="font-family:var(--mono);color:var(--accent-bright)">AT-2</span><span>学生可以连续发布多个物品，列表正确展示。</span></div>
+          <div style="display:grid;grid-template-columns:auto 1fr;gap:1vw;border-top:1px solid rgba(255,255,255,.18);padding-top:1.2vh"><span style="font-family:var(--mono);color:var(--accent-bright)">AT-3</span><span>学生可以保存草稿，下次继续编辑后发布。</span></div>
+          <div style="display:grid;grid-template-columns:auto 1fr;gap:1vw;border-top:1px solid rgba(255,255,255,.18);padding-top:1.2vh"><span style="font-family:var(--mono);color:var(--accent-bright)">AT-4</span><span>学生可以随时取消 / 下架已发布的物品。</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 11 · S10 Closing · 左 IKB / 右 takeaway -->
 <section class="slide split" data-animate="split-statement" data-layout="SWISS-CLOSING-ASCII">
   <div class="canvas-card">
     <div class="split-half">
       <div class="half b-accent" style="padding:5.6vh 3.6vw 4.4vh;justify-content:space-between;position:relative;overflow:hidden">
         <canvas class="ascii-bg" aria-hidden="true"></canvas>
         <div class="chrome-min" style="margin-bottom:0;position:relative;z-index:1">
-          <div class="l">08 / 08</div>
+          <div class="l">11 / 11</div>
           <div class="r">CLOSING</div>
         </div>
         <div data-anim="manifesto" style="display:flex;flex-direction:column;gap:2vh;position:relative;z-index:1">
